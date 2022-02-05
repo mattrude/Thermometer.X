@@ -1,0 +1,344 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"7 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\adc_pic16.c
+[v _ADCInit ADCInit `(v  1 e 1 0 ]
+"24
+[v _ReadADC ReadADC `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"80 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\lcd_hd44780_pic16.c
+[v _LCDByte LCDByte `(v  1 e 1 0 ]
+"135
+[v _LCDBusyLoop LCDBusyLoop `(v  1 e 1 0 ]
+"193
+[v _LCDInit LCDInit `(v  1 e 1 0 ]
+"251
+[v _LCDWriteString LCDWriteString `(v  1 e 1 0 ]
+"307
+[v _LCDWriteInt LCDWriteInt `(v  1 e 1 0 ]
+"352
+[v _LCDGotoXY LCDGotoXY `(v  1 e 1 0 ]
+"8 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\lm35_pic16.c
+[v _LM35ReadTemp LM35ReadTemp `(f  1 e 4 0 ]
+"48 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"15 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X/custom_char.h
+[v ___cgram __cgram `[64]uc  1 e 64 0 ]
+"341 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1153
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+[s S147 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 GO_nDONE 1 0 :1:2 
+`uc 1 CHS 1 0 :3:3 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1191
+[s S153 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO 1 0 :1:2 
+`uc 1 CHS0 1 0 :1:3 
+`uc 1 CHS1 1 0 :1:4 
+`uc 1 CHS2 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S161 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nDONE 1 0 :1:2 
+]
+[s S164 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO_DONE 1 0 :1:2 
+]
+[u S167 . 1 `S147 1 . 1 0 `S153 1 . 1 0 `S161 1 . 1 0 `S164 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES167  1 e 1 @31 ]
+[s S58 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1393
+[u S67 . 1 `S58 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES67  1 e 1 @134 ]
+"1500
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S37 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1517
+[u S46 . 1 `S37 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES46  1 e 1 @136 ]
+"2223
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+[s S123 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADCS2 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2249
+[s S128 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+]
+[u S133 . 1 `S123 1 . 1 0 `S128 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES133  1 e 1 @159 ]
+"2682
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2685
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2766
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"48 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"64
+[v main@t t `f  1 a 4 66 ]
+"76
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 10 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 9 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"8 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\lm35_pic16.c
+[v _LM35ReadTemp LM35ReadTemp `(f  1 e 4 0 ]
+{
+"11
+[v LM35ReadTemp@t t `f  1 a 4 57 ]
+"14
+[v LM35ReadTemp@adc_value adc_value `ui  1 a 2 61 ]
+"29
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S540 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S545 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S548 . 4 `l 1 i 4 0 `d 1 f 4 0 `S540 1 fAsBytes 4 0 `S545 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S548  1 a 4 46 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 40 ]
+[s S617 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S620 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S617 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S620  1 a 2 50 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 45 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 44 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 39 ]
+"8
+[v ___flmul@b b `d  1 p 4 26 ]
+[v ___flmul@a a `d  1 p 4 30 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 20 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 13 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 18 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 25 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 24 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 17 ]
+"8
+[v ___fldiv@a a `d  1 p 4 0 ]
+[v ___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"24 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\adc_pic16.c
+[v _ReadADC ReadADC `(ui  1 e 2 0 ]
+{
+[v ReadADC@ch ch `uc  1 a 1 wreg ]
+[v ReadADC@ch ch `uc  1 a 1 wreg ]
+"26
+[v ReadADC@ch ch `uc  1 a 1 3 ]
+"41
+} 0
+"251 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\lcd_hd44780_pic16.c
+[v _LCDWriteString LCDWriteString `(v  1 e 1 0 ]
+{
+[v LCDWriteString@msg msg `*.24DCuc  1 a 1 wreg ]
+"287
+[v LCDWriteString@cc cc `c  1 a 1 0 ]
+"251
+[v LCDWriteString@msg msg `*.24DCuc  1 a 1 wreg ]
+[v LCDWriteString@msg msg `*.24DCuc  1 a 1 1 ]
+"305
+} 0
+"307
+[v _LCDWriteInt LCDWriteInt `(v  1 e 1 0 ]
+{
+"320
+[v LCDWriteInt@str str `[5]uc  1 a 5 6 ]
+"321
+[v LCDWriteInt@i i `i  1 a 2 13 ]
+[v LCDWriteInt@j j `i  1 a 2 11 ]
+"307
+[v LCDWriteInt@val val `i  1 p 2 0 ]
+[v LCDWriteInt@field_length field_length `c  1 p 1 2 ]
+"346
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"193 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\lcd_hd44780_pic16.c
+[v _LCDInit LCDInit `(v  1 e 1 0 ]
+{
+[v LCDInit@style style `uc  1 a 1 wreg ]
+"245
+[v LCDInit@__i __i `uc  1 a 1 1 ]
+"193
+[v LCDInit@style style `uc  1 a 1 wreg ]
+"209
+[v LCDInit@style style `uc  1 a 1 0 ]
+"250
+} 0
+"352
+[v _LCDGotoXY LCDGotoXY `(v  1 e 1 0 ]
+{
+[v LCDGotoXY@x x `uc  1 a 1 wreg ]
+[v LCDGotoXY@x x `uc  1 a 1 wreg ]
+[v LCDGotoXY@y y `uc  1 p 1 12 ]
+"354
+[v LCDGotoXY@x x `uc  1 a 1 13 ]
+"395
+} 0
+"80
+[v _LCDByte LCDByte `(v  1 e 1 0 ]
+{
+[v LCDByte@c c `uc  1 a 1 wreg ]
+"90
+[v LCDByte@temp temp `uc  1 a 1 11 ]
+"89
+[v LCDByte@ln ln `uc  1 a 1 9 ]
+[v LCDByte@hn hn `uc  1 a 1 8 ]
+"80
+[v LCDByte@c c `uc  1 a 1 wreg ]
+[v LCDByte@isdata isdata `uc  1 p 1 5 ]
+"92
+[v LCDByte@c c `uc  1 a 1 10 ]
+"133
+} 0
+"135
+[v _LCDBusyLoop LCDBusyLoop `(v  1 e 1 0 ]
+{
+"139
+[v LCDBusyLoop@status status `uc  1 a 1 4 ]
+[v LCDBusyLoop@temp temp `uc  1 a 1 3 ]
+[v LCDBusyLoop@busy busy `uc  1 a 1 2 ]
+"191
+} 0
+"7 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\adc_pic16.c
+[v _ADCInit ADCInit `(v  1 e 1 0 ]
+{
+"23
+} 0
