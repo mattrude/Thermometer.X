@@ -43,7 +43,7 @@
 [v _LCDGotoXY LCDGotoXY `(v  1 e 1 0 ]
 "8 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\lm35_pic16.c
 [v _LM35ReadTemp LM35ReadTemp `(f  1 e 4 0 ]
-"48 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+"47 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
 [v _main main `(v  1 e 1 0 ]
 "15 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X/custom_char.h
 [v ___cgram __cgram `[64]uc  1 e 64 0 ]
@@ -121,12 +121,12 @@
 [v _RB2 RB2 `VEb  1 e 0 @50 ]
 "2766
 [v _RD4 RD4 `VEb  1 e 0 @68 ]
-"48 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+"47 C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"64
+"63
 [v main@t t `f  1 a 4 66 ]
-"76
+"75
 } 0
 "43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
 [v ___fltol __fltol `(l  1 e 4 0 ]

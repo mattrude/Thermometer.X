@@ -27,9 +27,7 @@ me@avinashgupta.com
 
 *******************************************************************************/
 
-
 #include <xc.h>
-
 #include "lcd_hd44780_pic16.h"
 #include "adc_pic16.h"
 #include "lm35_pic16.h"
@@ -43,7 +41,6 @@ me@avinashgupta.com
 #pragma config CPD = OFF        // Data EEPROM Memory Code Protection bit (Data EEPROM code protection off)
 #pragma config WRT = OFF        // Flash Program Memory Write Enable bits (Write protection off; all program memory may be written to by EECON control)
 #pragma config CP = OFF         // Flash Program Memory Code Protection bit (Code protection off)
-
 
 void main(void)
 {

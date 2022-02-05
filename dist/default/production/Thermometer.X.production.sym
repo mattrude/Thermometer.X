@@ -294,7 +294,7 @@ inittext 18E6 190B CODE 18E6 0
 text17 18C2 18E5 CODE 18C2 0
 %locals
 dist/default/production\Thermometer.X.production.o
-C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
+C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
 865 7E9 0 CODE 0
 868 7E9 0 CODE 0
 915 7E9 0 CODE 0
@@ -333,15 +333,15 @@ C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
 910 C84 0 CODE 0
 911 C85 0 CODE 0
 main.c
-48 EC7 0 CODE 0
-51 EC7 0 CODE 0
-54 ECD 0 CODE 0
-57 ED2 0 CODE 0
-59 ED9 0 CODE 0
-64 EDF 0 CODE 0
-67 EEE 0 CODE 0
-70 F14 0 CODE 0
-73 F1A 0 CODE 0
+47 EC7 0 CODE 0
+50 EC7 0 CODE 0
+53 ECD 0 CODE 0
+56 ED2 0 CODE 0
+58 ED9 0 CODE 0
+63 EDF 0 CODE 0
+66 EEE 0 CODE 0
+69 F14 0 CODE 0
+72 F1A 0 CODE 0
 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
 43 2E 0 CODE 0
 47 2E 0 CODE 0

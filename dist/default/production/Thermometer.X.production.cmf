@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
+$C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
 idloc IDLOC 5 2000 2000 4 2
 end_init CODE 0 0 0 3 2
 config CONFIG 4 2007 2007 1 2
@@ -93,26 +93,26 @@ STRING 1000-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Thermometer.X.production.o
-7E9 cinit CODE >865:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7E9 cinit CODE >868:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7E9 cinit CODE >915:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7EA cinit CODE >916:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7EB cinit CODE >917:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7EC cinit CODE >918:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7ED cinit CODE >919:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7EE cinit CODE >920:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7EF cinit CODE >921:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7F0 cinit CODE >922:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7F1 cinit CODE >923:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7F2 cinit CODE >924:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7F7 cinit CODE >928:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7F8 cinit CODE >929:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7F9 cinit CODE >930:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7FA cinit CODE >931:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7FB cinit CODE >932:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7FC cinit CODE >938:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7FC cinit CODE >940:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-7FD cinit CODE >941:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
+7E9 cinit CODE >865:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7E9 cinit CODE >868:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7E9 cinit CODE >915:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7EA cinit CODE >916:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7EB cinit CODE >917:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7EC cinit CODE >918:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7ED cinit CODE >919:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7EE cinit CODE >920:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7EF cinit CODE >921:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7F0 cinit CODE >922:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7F1 cinit CODE >923:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7F2 cinit CODE >924:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7F7 cinit CODE >928:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7F8 cinit CODE >929:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7F9 cinit CODE >930:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7FA cinit CODE >931:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7FB cinit CODE >932:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7FC cinit CODE >938:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7FC cinit CODE >940:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+7FD cinit CODE >941:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
 C61 text17 CODE >7:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\adc_pic16.c
 C61 text17 CODE >9:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\adc_pic16.c
 C64 text17 CODE >14:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\adc_pic16.c
@@ -777,32 +777,32 @@ A1 text1 CODE >68:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fl
 A3 text1 CODE >68:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
 A5 text1 CODE >68:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
 A7 text1 CODE >70:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
-EC7 maintext CODE >48:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
-EC7 maintext CODE >51:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
-ECD maintext CODE >54:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
-ED2 maintext CODE >57:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
-ED9 maintext CODE >59:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
-EDF maintext CODE >64:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
-EEE maintext CODE >67:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
-F14 maintext CODE >70:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
-F1A maintext CODE >73:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
-C73 inittext CODE >889:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C73 inittext CODE >890:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C74 inittext CODE >891:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C75 inittext CODE >892:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C76 inittext CODE >893:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C77 inittext CODE >900:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C77 inittext CODE >901:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C7C inittext CODE >902:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C7D inittext CODE >903:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C7E inittext CODE >904:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C7F inittext CODE >905:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C80 inittext CODE >906:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C81 inittext CODE >907:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C82 inittext CODE >908:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C83 inittext CODE >909:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C84 inittext CODE >910:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
-C85 inittext CODE >911:C:\Users\Owner\AppData\Local\Temp\xcAsg1g.s
+EC7 maintext CODE >47:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+EC7 maintext CODE >50:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+ECD maintext CODE >53:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+ED2 maintext CODE >56:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+ED9 maintext CODE >58:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+EDF maintext CODE >63:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+EEE maintext CODE >66:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+F14 maintext CODE >69:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+F1A maintext CODE >72:C:\Users\Owner\OneDrive\Documents\Eletrontics\MPLAB\Thermometer.X\main.c
+C73 inittext CODE >889:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C73 inittext CODE >890:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C74 inittext CODE >891:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C75 inittext CODE >892:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C76 inittext CODE >893:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C77 inittext CODE >900:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C77 inittext CODE >901:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C7C inittext CODE >902:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C7D inittext CODE >903:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C7E inittext CODE >904:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C7F inittext CODE >905:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C80 inittext CODE >906:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C81 inittext CODE >907:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C82 inittext CODE >908:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C83 inittext CODE >909:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C84 inittext CODE >910:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
+C85 inittext CODE >911:C:\Users\Owner\AppData\Local\Temp\xcAsf8o.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -827,11 +827,11 @@ __HidataBANK1 0 0 ABS 0 idataBANK1 -
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 main@t 62 0 BANK0 1 cstackBANK0 dist/default/production\Thermometer.X.production.o
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
+___sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
 _main 1D8E 0 CODE 0 maintext dist/default/production\Thermometer.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Thermometer.X.production.o
 __end_of_LCDWriteInt 3E2 0 CODE 0 text10 dist/default/production\Thermometer.X.production.o
-start 0 0 CODE 0 init C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
+start 0 0 CODE 0 init C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
 ___flmul@aexp 4C 0 BANK0 1 cstackBANK0 dist/default/production\Thermometer.X.production.o
 ___flmul@bexp 4D 0 BANK0 1 cstackBANK0 dist/default/production\Thermometer.X.production.o
 ___flmul@prod 4E 0 BANK0 1 cstackBANK0 dist/default/production\Thermometer.X.production.o
@@ -849,12 +849,12 @@ __size_of_LCDInit 0 0 ABS 0 - dist/default/production\Thermometer.X.production.o
 __LidataBANK1 0 0 ABS 0 idataBANK1 -
 __Hpowerup 0 0 CODE 0 powerup -
 ___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\Thermometer.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Thermometer.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 ___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\Thermometer.X.production.o
@@ -885,8 +885,8 @@ __end_of___flmul FD2 0 CODE 0 text5 dist/default/production\Thermometer.X.produc
 __end_of___fltol 150 0 CODE 0 text1 dist/default/production\Thermometer.X.production.o
 __end_of___lwdiv 1ACC 0 CODE 0 text4 dist/default/production\Thermometer.X.production.o
 __Umul8_16@multiplicand 70 0 COMMON 1 cstackCOMMON dist/default/production\Thermometer.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
-___stacklo 0 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
+___stackhi 0 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
+___stacklo 0 0 ABS 0 - C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
 _LCDBusyLoop 1B66 0 CODE 0 text16 dist/default/production\Thermometer.X.production.o
 __end_of_LCDByte 1B66 0 CODE 0 text15 dist/default/production\Thermometer.X.production.o
 __end_of_LCDInit 1D8E 0 CODE 0 text13 dist/default/production\Thermometer.X.production.o
@@ -906,7 +906,7 @@ _ADCInit 18C2 0 CODE 0 text17 dist/default/production\Thermometer.X.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\Thermometer.X.production.o
 LCDByte@temp 7B 0 COMMON 1 cstackCOMMON dist/default/production\Thermometer.X.production.o
 __end_of_ReadADC 5C 0 CODE 0 text8 dist/default/production\Thermometer.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
+___int_sp 0 0 STACK 2 stack C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
 _LM35ReadTemp 150 0 CODE 0 text2 dist/default/production\Thermometer.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -966,7 +966,7 @@ LM35ReadTemp@t 59 0 BANK0 1 cstackBANK0 dist/default/production\Thermometer.X.pr
 ___xxtofl 3E2 0 CODE 0 text3 dist/default/production\Thermometer.X.production.o
 __Lintentry 0 0 CODE 0 intentry -
 __stringtab 1000 0 STRING 0 strings dist/default/production\Thermometer.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Owner\AppData\Local\Temp\xcAsg1g.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Owner\AppData\Local\Temp\xcAsf8o.o
 __end_of_LM35ReadTemp 28E 0 CODE 0 text2 dist/default/production\Thermometer.X.production.o
 __end_of___xxtofl 556 0 CODE 0 text3 dist/default/production\Thermometer.X.production.o
 __pdataBANK1 A0 0 BANK1 1 dataBANK1 dist/default/production\Thermometer.X.production.o

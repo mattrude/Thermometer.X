@@ -1855,7 +1855,6 @@ extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 29 "C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\\pic\\include\\xc.h" 2 3
 # 32 "main.c" 2
-
 # 1 "./lcd_hd44780_pic16.h" 1
 # 12 "./lcd_hd44780_pic16.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c90\\stdint.h" 1 3
@@ -1872,7 +1871,7 @@ void LCDByte(uint8_t,uint8_t);
 
 
 void LCDBusyLoop();
-# 34 "main.c" 2
+# 33 "main.c" 2
 # 1 "./adc_pic16.h" 1
 # 12 "./adc_pic16.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c90\\stdint.h" 1 3
@@ -1884,11 +1883,11 @@ void LCDBusyLoop();
 
 void ADCInit();
 uint16_t ReadADC(uint8_t ch);
-# 35 "main.c" 2
+# 34 "main.c" 2
 # 1 "./lm35_pic16.h" 1
 # 17 "./lm35_pic16.h"
 float LM35ReadTemp();
-# 36 "main.c" 2
+# 35 "main.c" 2
 
 
 #pragma config FOSC = HS
